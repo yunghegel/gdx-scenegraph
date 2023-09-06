@@ -3,7 +3,7 @@
   "component": {
     "group": "org.yunghegel.gdx",
     "module": "gdx-scenegraph",
-    "version": "0.1-SNAPSHOT",
+    "version": "0.3-SNAPSHOT",
     "attributes": {
       "org.gradle.status": "integration"
     }
@@ -20,7 +20,7 @@
         "org.gradle.category": "library",
         "org.gradle.dependency.bundling": "external",
         "org.gradle.jvm.environment": "standard-jvm",
-        "org.gradle.jvm.version": 11,
+        "org.gradle.jvm.version": 17,
         "org.gradle.libraryelements": "jar",
         "org.gradle.usage": "java-api",
         "org.jetbrains.kotlin.platform.type": "jvm"
@@ -86,13 +86,13 @@
       ],
       "files": [
         {
-          "name": "gdx-scenegraph-0.1-SNAPSHOT.jar",
-          "url": "gdx-scenegraph-0.1-SNAPSHOT.jar",
-          "size": 15893,
-          "sha512": "5f345b748f91d5449545274565678680a8de02ee8667195b767c36fdf649e7b1f90dcc81a4fcf41f945a38da9c035e9a1dfa7a84e02c2304e4db46e26b4ee99b",
-          "sha256": "336f34760b5f0e79aaaef1afe237cbf103417fdb546507bdb976df24b057e531",
-          "sha1": "a17309ccc6dc1060ec15ad9686d3bbeeb1ff9c89",
-          "md5": "c67622e43000e1bbd50b6b28017ac150"
+          "name": "gdx-scenegraph-0.3-SNAPSHOT.jar",
+          "url": "gdx-scenegraph-0.3-SNAPSHOT.jar",
+          "size": 16290,
+          "sha512": "c03c9047794a4aa0adcc329440c89301b480ad67812a0b87990d05c5487a63fd9deea2506e4387cc658dd373b7f31eb3e94f262eba7b111d29143d7041c89fc9",
+          "sha256": "481f64bce9a2566caec2083db469df6e9c55b85a4f9ec69a20f3b794310f317f",
+          "sha1": "4f93300069fa55d0be9123d79db7404a6c113276",
+          "md5": "7fcb7751a68288500de64e3bf7f829c7"
         }
       ]
     },
@@ -102,7 +102,7 @@
         "org.gradle.category": "library",
         "org.gradle.dependency.bundling": "external",
         "org.gradle.jvm.environment": "standard-jvm",
-        "org.gradle.jvm.version": 11,
+        "org.gradle.jvm.version": 17,
         "org.gradle.libraryelements": "jar",
         "org.gradle.usage": "java-runtime",
         "org.jetbrains.kotlin.platform.type": "jvm"
@@ -173,6 +173,13 @@
           }
         },
         {
+          "group": "com.github.raeleus.stripe",
+          "module": "freetype",
+          "version": {
+            "requires": "1.4.5"
+          }
+        },
+        {
           "group": "com.google.code.gson",
           "module": "gson",
           "version": {
@@ -239,13 +246,13 @@
       ],
       "files": [
         {
-          "name": "gdx-scenegraph-0.1-SNAPSHOT.jar",
-          "url": "gdx-scenegraph-0.1-SNAPSHOT.jar",
-          "size": 15893,
-          "sha512": "5f345b748f91d5449545274565678680a8de02ee8667195b767c36fdf649e7b1f90dcc81a4fcf41f945a38da9c035e9a1dfa7a84e02c2304e4db46e26b4ee99b",
-          "sha256": "336f34760b5f0e79aaaef1afe237cbf103417fdb546507bdb976df24b057e531",
-          "sha1": "a17309ccc6dc1060ec15ad9686d3bbeeb1ff9c89",
-          "md5": "c67622e43000e1bbd50b6b28017ac150"
+          "name": "gdx-scenegraph-0.3-SNAPSHOT.jar",
+          "url": "gdx-scenegraph-0.3-SNAPSHOT.jar",
+          "size": 16290,
+          "sha512": "c03c9047794a4aa0adcc329440c89301b480ad67812a0b87990d05c5487a63fd9deea2506e4387cc658dd373b7f31eb3e94f262eba7b111d29143d7041c89fc9",
+          "sha256": "481f64bce9a2566caec2083db469df6e9c55b85a4f9ec69a20f3b794310f317f",
+          "sha1": "4f93300069fa55d0be9123d79db7404a6c113276",
+          "md5": "7fcb7751a68288500de64e3bf7f829c7"
         }
       ]
     },
@@ -259,13 +266,13 @@
       },
       "files": [
         {
-          "name": "gdx-scenegraph-0.1-SNAPSHOT-sources.jar",
-          "url": "gdx-scenegraph-0.1-SNAPSHOT-sources.jar",
-          "size": 9881,
-          "sha512": "bc24b8c5fba23e59d4698cc6dfcb46a736ba4e31131b83c2b79e18b0b867c57d7a0590c8eea780596bbbd0a4954f31cca5887f2036b17ad2e5ee694ac9ceaccc",
-          "sha256": "c7b11d5a382b6bdd4fc6e3492161b4f8ac5d8e2471ff73ff334e1f0d7c448946",
-          "sha1": "4db93312c582f246203dc7e696e5554632a790a0",
-          "md5": "047850dc9b320d8fba8a1af17de67c68"
+          "name": "gdx-scenegraph-0.3-SNAPSHOT-sources.jar",
+          "url": "gdx-scenegraph-0.3-SNAPSHOT-sources.jar",
+          "size": 10263,
+          "sha512": "4dfe9b755c6e6a0fd9d15518ff305be744539245bb40441d54c52cb774ca0633aebd889941bd50c98e149fdabb3f3423a94c73d5896c24a95454d1cfc098932e",
+          "sha256": "d031469c9aa10eb3d1f9bd219b8f19c65460fbc3218d224a68fef73c055a05f3",
+          "sha1": "9f69aa39e5fce6612b491f61a5e8f208a6380210",
+          "md5": "23687567f55be7fe367598c76fefb21a"
         }
       ]
     }

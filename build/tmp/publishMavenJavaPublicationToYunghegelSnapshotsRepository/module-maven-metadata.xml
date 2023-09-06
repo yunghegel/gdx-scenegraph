@@ -3,10 +3,12 @@
   <groupId>org.yunghegel.gdx</groupId>
   <artifactId>gdx-scenegraph</artifactId>
   <versioning>
-    <latest>0.1-SNAPSHOT</latest>
+    <latest>0.3-SNAPSHOT</latest>
     <versions>
       <version>0.1-SNAPSHOT</version>
+      <version>0.2-SNAPSHOT</version>
+      <version>0.3-SNAPSHOT</version>
     </versions>
-    <lastUpdated>20230829111619</lastUpdated>
+    <lastUpdated>20230906010850</lastUpdated>
   </versioning>
 </metadata>
