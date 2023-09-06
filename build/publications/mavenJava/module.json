@@ -88,11 +88,11 @@
         {
           "name": "gdx-scenegraph-0.3-SNAPSHOT.jar",
           "url": "gdx-scenegraph-0.3-SNAPSHOT.jar",
-          "size": 16290,
-          "sha512": "c03c9047794a4aa0adcc329440c89301b480ad67812a0b87990d05c5487a63fd9deea2506e4387cc658dd373b7f31eb3e94f262eba7b111d29143d7041c89fc9",
-          "sha256": "481f64bce9a2566caec2083db469df6e9c55b85a4f9ec69a20f3b794310f317f",
-          "sha1": "4f93300069fa55d0be9123d79db7404a6c113276",
-          "md5": "7fcb7751a68288500de64e3bf7f829c7"
+          "size": 16288,
+          "sha512": "2f99acbd0646d0f5b7ac15bfd077e47e61d1036061f3abfc448e019fb9ea284b46bb9b23efcaf64de48a638dbb9fd1501c9a05ab5dffafac9e37c31164690099",
+          "sha256": "b7d528853b520d396b5f98fe05861a795deac686211a1cb9b19ab99229e3e3f6",
+          "sha1": "19e3ff06932882f649603119ac23444403880124",
+          "md5": "b44c250d3c3f7f5d1b700f5a48a23a2e"
         }
       ]
     },
@@ -248,11 +248,11 @@
         {
           "name": "gdx-scenegraph-0.3-SNAPSHOT.jar",
           "url": "gdx-scenegraph-0.3-SNAPSHOT.jar",
-          "size": 16290,
-          "sha512": "c03c9047794a4aa0adcc329440c89301b480ad67812a0b87990d05c5487a63fd9deea2506e4387cc658dd373b7f31eb3e94f262eba7b111d29143d7041c89fc9",
-          "sha256": "481f64bce9a2566caec2083db469df6e9c55b85a4f9ec69a20f3b794310f317f",
-          "sha1": "4f93300069fa55d0be9123d79db7404a6c113276",
-          "md5": "7fcb7751a68288500de64e3bf7f829c7"
+          "size": 16288,
+          "sha512": "2f99acbd0646d0f5b7ac15bfd077e47e61d1036061f3abfc448e019fb9ea284b46bb9b23efcaf64de48a638dbb9fd1501c9a05ab5dffafac9e37c31164690099",
+          "sha256": "b7d528853b520d396b5f98fe05861a795deac686211a1cb9b19ab99229e3e3f6",
+          "sha1": "19e3ff06932882f649603119ac23444403880124",
+          "md5": "b44c250d3c3f7f5d1b700f5a48a23a2e"
         }
       ]
     },
@@ -269,10 +269,10 @@
           "name": "gdx-scenegraph-0.3-SNAPSHOT-sources.jar",
           "url": "gdx-scenegraph-0.3-SNAPSHOT-sources.jar",
           "size": 10263,
-          "sha512": "4dfe9b755c6e6a0fd9d15518ff305be744539245bb40441d54c52cb774ca0633aebd889941bd50c98e149fdabb3f3423a94c73d5896c24a95454d1cfc098932e",
-          "sha256": "d031469c9aa10eb3d1f9bd219b8f19c65460fbc3218d224a68fef73c055a05f3",
-          "sha1": "9f69aa39e5fce6612b491f61a5e8f208a6380210",
-          "md5": "23687567f55be7fe367598c76fefb21a"
+          "sha512": "6cf21d1d5775176925c51573c7d7da7eabfc7f8c80ce0f95ca54882cfff794b399b7461c93205665da5c8bd3bd78c8314d9296673937432aee6314432f6535b2",
+          "sha256": "0dcdbabc5f08ecb3440c5ae75eb0eb103267f9cd75fd602e57bfd0f1ddae04da",
+          "sha1": "1aa66edde4d9cb953086c4db9f3186d39bab45ea",
+          "md5": "67f86f38f714ea932fed08e78ce5fba7"
         }
       ]
     }
