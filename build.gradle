@@ -1,6 +1,6 @@
 
 group 'org.yunghegel.gdx'
-version '0.3-SNAPSHOT'
+version "$gdxSceneGraphVersion"
 
 dependencies {
     // Define dependencies for gdx-scenegraph
