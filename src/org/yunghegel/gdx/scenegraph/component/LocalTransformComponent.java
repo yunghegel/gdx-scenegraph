@@ -8,7 +8,7 @@ import org.yunghegel.gdx.scenegraph.scene3d.GameObject;
 
 import java.io.IOException;
 
-public class LocalTransformComponent<T extends Matrix4> extends SerializableComponent<T> {
+public class LocalTransformComponent<T extends Matrix4> extends BaseComponent<T> {
 
     Vector3 localPosition = new Vector3();
     Vector3 localScale = new Vector3();
@@ -32,11 +32,5 @@ public class LocalTransformComponent<T extends Matrix4> extends SerializableComp
     }
 
 
-    @Override
-    public void serialize(JsonWriter writer) throws IOException {
-        writer.beginObject();
-        writer.name("localTransform");
-        writer.value(object.toString());
-        writer.endObject();
-    }
+
 }

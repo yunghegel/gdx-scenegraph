@@ -6,7 +6,7 @@ import org.yunghegel.gdx.scenegraph.scene3d.GameObject;
 
 import java.io.IOException;
 
-public class GlobalTransformComponent<T extends Matrix4> extends SerializableComponent<T> implements Component<T> {
+public class GlobalTransformComponent<T extends Matrix4> extends BaseComponent<T> implements Component<T> {
 
     public GlobalTransformComponent(T object, GameObject gameObject) {
         super(object,gameObject);
@@ -25,12 +25,5 @@ public class GlobalTransformComponent<T extends Matrix4> extends SerializableCom
     }
 
 
-    @Override
-    public void serialize(JsonWriter writer) throws IOException {
-        writer.beginObject();
-        writer.name("globalTransform");
 
-        writer.value(object.getValues().toString());
-        writer.endObject();
-    }
 }

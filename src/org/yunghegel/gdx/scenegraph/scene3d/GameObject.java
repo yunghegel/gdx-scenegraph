@@ -9,15 +9,14 @@ import com.google.gson.stream.JsonWriter;
 import org.yunghegel.gdx.scenegraph.component.BaseComponent;
 import org.yunghegel.gdx.scenegraph.component.GlobalTransformComponent;
 import org.yunghegel.gdx.scenegraph.component.LocalTransformComponent;
-import org.yunghegel.gdx.scenegraph.component.SerializableComponent;
-import org.yunghegel.gdx.scenegraph.serialize.Serializable;
+
 
 import java.io.IOException;
 import java.util.Iterator;
 import java.util.Spliterator;
 import java.util.function.Consumer;
 
-public class GameObject extends SimpleNode<GameObject> implements Iterable<GameObject>, Serializable {
+public class GameObject extends SimpleNode<GameObject> implements Iterable<GameObject> {
 
     public static final String DEFAULT_NAME = "GameObject";
 
@@ -144,42 +143,6 @@ public class GameObject extends SimpleNode<GameObject> implements Iterable<GameO
         return tmp;
     }
 
-    public Array<SerializableComponent> getSerializableComponents() {
-        Array<BaseComponent> components = getComponents();
-        Array<SerializableComponent> tmp = new Array<>();
-        for (BaseComponent component : components) {
-            if (component instanceof SerializableComponent) {
-                tmp.add((SerializableComponent) component);
-            }
-        }
-        return tmp;
-    }
-
-    @Override
-    public void serialize(JsonWriter writer) throws IOException {
-//        writer.name("GameObject");
-        writer.beginObject();
-           writer.name("name").value(name);
-              writer.name("id").value(id);
-//                writer.endObject();
-                writer.name("components");
-                writer.beginArray();
-                    for (BaseComponent component : components) {
-                        if(component instanceof SerializableComponent){
-                            ((SerializableComponent) component).serialize(writer);
-                        }
-                    }
-                writer.endArray();
-                writer.name("children");
-                writer.beginArray();
-                if(getChildren()!=null){
-                    for (GameObject child : getChildren()) {
-                        child.serialize(writer);
-                    }}
-                writer.endArray();
-        writer.endObject();
 
 
-
-    }
 }
