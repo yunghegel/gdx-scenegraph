@@ -3,7 +3,7 @@
   "component": {
     "group": "org.yunghegel.gdx",
     "module": "gdx-scenegraph",
-    "version": "0.3-SNAPSHOT",
+    "version": "0.4-SNAPSHOT",
     "attributes": {
       "org.gradle.status": "integration"
     }
@@ -19,11 +19,9 @@
       "attributes": {
         "org.gradle.category": "library",
         "org.gradle.dependency.bundling": "external",
-        "org.gradle.jvm.environment": "standard-jvm",
-        "org.gradle.jvm.version": 17,
+        "org.gradle.jvm.version": 11,
         "org.gradle.libraryelements": "jar",
-        "org.gradle.usage": "java-api",
-        "org.jetbrains.kotlin.platform.type": "jvm"
+        "org.gradle.usage": "java-api"
       },
       "dependencies": [
         {
@@ -75,24 +73,17 @@
           "version": {
             "requires": "2.1.0"
           }
-        },
-        {
-          "group": "org.jetbrains.kotlin",
-          "module": "kotlin-stdlib-jdk8",
-          "version": {
-            "requires": "1.9.0"
-          }
         }
       ],
       "files": [
         {
-          "name": "gdx-scenegraph-0.3-SNAPSHOT.jar",
-          "url": "gdx-scenegraph-0.3-SNAPSHOT.jar",
-          "size": 13099,
-          "sha512": "fec4bc6565888c4f2be2ec38138d858f1878dc8c23185ae509c7383912c6a7d3cae3af723b3b99c2c6953c270a490e2cc24a1b7788eafd8609a7b7bab2daadd1",
-          "sha256": "27b3f83e7c4c0de318f6a26e225b7370e9f771b85a3039f66a36a4d599f2e5b1",
-          "sha1": "71551a3453125e4aec5d3fd0adbcf77905c1abda",
-          "md5": "6da2515616569c14190a3461653d5d18"
+          "name": "gdx-scenegraph-0.4-SNAPSHOT.jar",
+          "url": "gdx-scenegraph-0.4-SNAPSHOT.jar",
+          "size": 12998,
+          "sha512": "61bd5b90049b2c08f7d2cb5fa6333900a3333031e3058c0129eb81eeb0f01f19546306eb6210106b5894d68f4bd53db8bb0e7077593fa4519bbec4f0234c3696",
+          "sha256": "05164d3856a190982026b71113131dc40a7b65e40e9071d4326fbbbeae52a45d",
+          "sha1": "961e7aadb7416dda5085be4b429fc556d1838443",
+          "md5": "965f28b7aed7214d7e14186af430af85"
         }
       ]
     },
@@ -101,11 +92,9 @@
       "attributes": {
         "org.gradle.category": "library",
         "org.gradle.dependency.bundling": "external",
-        "org.gradle.jvm.environment": "standard-jvm",
-        "org.gradle.jvm.version": 17,
+        "org.gradle.jvm.version": 11,
         "org.gradle.libraryelements": "jar",
-        "org.gradle.usage": "java-runtime",
-        "org.jetbrains.kotlin.platform.type": "jvm"
+        "org.gradle.usage": "java-runtime"
       },
       "dependencies": [
         {
@@ -187,6 +176,20 @@
           }
         },
         {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-gradle-plugin",
+          "version": {
+            "requires": "1.9.0"
+          }
+        },
+        {
+          "group": "org.apache.commons",
+          "module": "commons-lang3",
+          "version": {
+            "requires": "3.12.0"
+          }
+        },
+        {
           "group": "com.badlogicgames.gdx",
           "module": "gdx",
           "version": {
@@ -235,24 +238,17 @@
           "version": {
             "requires": "2.1.0"
           }
-        },
-        {
-          "group": "org.jetbrains.kotlin",
-          "module": "kotlin-stdlib-jdk8",
-          "version": {
-            "requires": "1.9.0"
-          }
         }
       ],
       "files": [
         {
-          "name": "gdx-scenegraph-0.3-SNAPSHOT.jar",
-          "url": "gdx-scenegraph-0.3-SNAPSHOT.jar",
-          "size": 13099,
-          "sha512": "fec4bc6565888c4f2be2ec38138d858f1878dc8c23185ae509c7383912c6a7d3cae3af723b3b99c2c6953c270a490e2cc24a1b7788eafd8609a7b7bab2daadd1",
-          "sha256": "27b3f83e7c4c0de318f6a26e225b7370e9f771b85a3039f66a36a4d599f2e5b1",
-          "sha1": "71551a3453125e4aec5d3fd0adbcf77905c1abda",
-          "md5": "6da2515616569c14190a3461653d5d18"
+          "name": "gdx-scenegraph-0.4-SNAPSHOT.jar",
+          "url": "gdx-scenegraph-0.4-SNAPSHOT.jar",
+          "size": 12998,
+          "sha512": "61bd5b90049b2c08f7d2cb5fa6333900a3333031e3058c0129eb81eeb0f01f19546306eb6210106b5894d68f4bd53db8bb0e7077593fa4519bbec4f0234c3696",
+          "sha256": "05164d3856a190982026b71113131dc40a7b65e40e9071d4326fbbbeae52a45d",
+          "sha1": "961e7aadb7416dda5085be4b429fc556d1838443",
+          "md5": "965f28b7aed7214d7e14186af430af85"
         }
       ]
     },
@@ -266,13 +262,13 @@
       },
       "files": [
         {
-          "name": "gdx-scenegraph-0.3-SNAPSHOT-sources.jar",
-          "url": "gdx-scenegraph-0.3-SNAPSHOT-sources.jar",
+          "name": "gdx-scenegraph-0.4-SNAPSHOT-sources.jar",
+          "url": "gdx-scenegraph-0.4-SNAPSHOT-sources.jar",
           "size": 8449,
-          "sha512": "30c3df81fcc9222afdeb19cb627074a533a6ecb77e0751f11ba8bd01f38691cff75b93fffd0f6283fc31a6c010b586469a459dcdae97c3ace7e4fe6fc3567b26",
-          "sha256": "80e732bb4b6bdb7ea9b2d91890a18d16311965864b1677e124a30439be9d2adb",
-          "sha1": "302f34908944caeaf109013625baa223c4772fac",
-          "md5": "a902958bb87e75c261c4f00bbf2f3202"
+          "sha512": "163f020323191eaf94597d9c8f83b197e9a98ccce54d657d6a9db660e3e7fe5a8f9659ec58d29157693c9a2080f81b64ed0dc76e8bd5002cc1f60afc6edf7936",
+          "sha256": "ee2acb510086b2e79324dcac59684272431a377281fcdf97a04ec3c3f678c029",
+          "sha1": "00f185570c72ed82c2c476a2fd3c0eccdd5de807",
+          "md5": "b70b31effebaf3a7e421a6283b6d8d7a"
         }
       ]
     }
