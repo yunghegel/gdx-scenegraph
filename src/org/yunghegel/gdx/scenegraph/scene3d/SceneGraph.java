@@ -15,6 +15,7 @@ public class SceneGraph implements Json.Serializable {
     public SceneGraph(BaseScene scene) {
         root = new GameObject(this, "root", -1,new Matrix4());
         root.initChildrenArray();
+        this.scene = scene;
     }
 
     public void render(float delta) {

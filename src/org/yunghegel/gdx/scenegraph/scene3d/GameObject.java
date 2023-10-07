@@ -33,7 +33,6 @@ public class GameObject extends SimpleNode<GameObject> implements Iterable<GameO
         this.name = (name == null) ? DEFAULT_NAME : name;
         this.active = true;
         this.tags = null;
-        Log.info("GameObject created: [" + this.name + "]  [" + this.id+"]");
         addComponent(new LocalTransformComponent<>(transform, this));
         addComponent(new GlobalTransformComponent<>(transform,this));
 
