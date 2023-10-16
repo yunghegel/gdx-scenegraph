@@ -9,7 +9,7 @@ import com.badlogic.gdx.utils.Array;
  */
 public abstract class BaseNode<T extends BaseNode> implements Node<T> {
 
-    public final int id;
+    public int id;
 
     protected Array<T> children;
     protected T parent;
@@ -30,14 +30,7 @@ public abstract class BaseNode<T extends BaseNode> implements Node<T> {
         child.setParent(this);
     }
 
-    @Override
-    public boolean isChildOf(GameObject other) {
-        for (GameObject go : other) {
-            if (go.id == this.id) return true;
-        }
 
-        return false;
-    }
 
     @Override
     public Array<T> getChildren() {

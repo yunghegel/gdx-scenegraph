@@ -8,6 +8,7 @@ public class SimpleNode<T extends SimpleNode> extends BaseNode<T> {
 
     static boolean WORLD_SPACE_TRANSFORM = true;
     private static Matrix4 tempMat = new Matrix4();
+    private static Quaternion tempQuat = new Quaternion();
 
     private Vector3 localPosition;
     private Quaternion localRotation;
@@ -36,6 +37,12 @@ public class SimpleNode<T extends SimpleNode> extends BaseNode<T> {
         this.localRotation = new Quaternion(simpleNode.localRotation);
         this.localScale = new Vector3(simpleNode.localScale);
         this.combined = new Matrix4(simpleNode.combined);
+    }
+
+
+    @Override
+    public boolean isChildOf(T other) {
+        return false;
     }
 
     @Override
@@ -116,6 +123,12 @@ public class SimpleNode<T extends SimpleNode> extends BaseNode<T> {
     @Override
     public void setLocalRotation(float x, float y, float z, float w) {
         localRotation.set(x, y, z, w);
+    }
+
+    public void setLocalRotation(float yaw, float pitch, float roll) {
+        Quaternion quaternion = getRotation(tempQuat);
+        quaternion.setEulerAngles(yaw, pitch, roll);
+        setLocalRotation(quaternion.x, quaternion.y, quaternion.z, quaternion.w);
     }
 
     @Override

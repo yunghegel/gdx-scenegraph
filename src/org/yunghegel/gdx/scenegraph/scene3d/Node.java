@@ -28,7 +28,7 @@ public interface Node<T extends Node> {
      *
      * @return true if this is a child of other, false otherwise
      */
-    boolean isChildOf(GameObject other);
+    boolean isChildOf(T other);
 
     /**
      * Initializes the array, that holds the child nodes, which would be null

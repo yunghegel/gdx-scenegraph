@@ -1,13 +1,9 @@
-plugins {
-    id 'groovy-gradle-plugin'
-}
 
 group 'org.yunghegel.gdx'
 version "$gdxSceneGraphVersion"
 
 dependencies {
 
-    implementation 'com.github.czyzby:gdx-kiwi:1.9.1.9.6'
 
     // Define dependencies for gdx-scenegraph
 }
